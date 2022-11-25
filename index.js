@@ -14,7 +14,7 @@ app.use(cors())
 
 app.use(express.urlencoded());
 
-app.use(express.json());
+//app.use(express.json());
 
 const expressLayouts = require("express-ejs-layouts");
 
